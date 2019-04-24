@@ -75,10 +75,18 @@ html, body { height: 100%; width: 100%; margin: 0; }
 }
 
 
+   @media all and (min-width: 700px){
 .bok1 img:hover, .bok2 img:hover, .bok3 img:hover, .bok4 img:hover, .bok5 img:hover, .bok6 img:hover, .bok7 img:hover {
 box-shadow: -2px 10px 30px 20px rgba(180, 136, 99, 1), rgba(180, 136, 99, 1) -3px 20px 15px 10px inset;
 }
 
+.bok1:hover, .bok2:hover, .bok3:hover, .bok4:hover, .bok5:hover, .bok6:hover, .bok7:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  z-index: 1000;
+}
+}
 
 
 .bok1, .bok2, .bok3, .bok4, .bok5, .bok6, .bok7 {
@@ -88,12 +96,7 @@ box-shadow: -2px 10px 30px 20px rgba(180, 136, 99, 1), rgba(180, 136, 99, 1) -3p
 }
 
 
-.bok1:hover, .bok2:hover, .bok3:hover, .bok4:hover, .bok5:hover, .bok6:hover, .bok7:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
-  z-index: 1000;
-}
+
 
 .bilde {
     z-index:999;
