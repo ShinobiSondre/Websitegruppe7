@@ -18,7 +18,6 @@ html, body { height: 100%; width: 100%; margin: 0; }
 }
 .item > .bok2 img{
   margin-top:-85%;
-  width: 75%;
 }
 .item > .bok1 img{
   margin-top:-75%;
